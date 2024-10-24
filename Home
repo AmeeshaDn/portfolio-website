@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amy Nathaniel - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .intro {
+            text-align: center;
+            padding: 2rem;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .skills ul, .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li, .projects li {
+            background: #eee;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border-radius: 4px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Amy Nathaniel - Marketing Specialist</h1>
+    </header>
+    
+    <div class="container">
+        <div class="intro">
+            <img src="https://via.placeholder.com/150" alt="Profile Photo" style="border-radius: 50%;">
+            <h2>Hello, I'm Amy!</h2>
+            <p>I'm a creative marketing specialist with a background in digital marketing, event management, and content creation. I am passionate about connecting with people and crafting stories that resonate.</p>
+        </div>
+        
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Digital Marketing: SEO, Social Media Marketing, Google Analytics</li>
+                <li>Content Creation: Blogging, Copywriting, Content Strategy, Canva</li>
+                <li>Event Management: Planning, Team Management, Multi-tasking</li>
+                <li>Corporate Communications: Press Releases, Report Writing, Stakeholder Engagement</li>
+                <li>Tools: Microsoft Office, Google Suite, Canva, Adobe Photoshop (Basic)</li>
+            </ul>
+        </div>
+        
+        <div class="section projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Event Organization:</strong> Organized and managed large-scale music events, including coordination of marketing campaigns and outreach.</li>
+                <li><strong>Content Strategy:</strong> Developed a social media content plan for a client, increasing engagement by 30% in 3 months.</li>
+                <li><strong>Marketing Campaigns:</strong> Worked on a digital marketing campaign that led to a 20% increase in lead generation.</li>
+                <li><strong>General Secretary & Content/Publicity Head:</strong> Promoted entrepreneurship by organizing 10-15 events/webinars, managing marketing efforts, and growing social media presence.</li>
+                <li><strong>Designer & Developer:</strong> Designed posters and developed newsletters to boost visibility of college activities and events.</li>
+            </ul>
+        </div>
+
+        <div class="section gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/300" alt="Event Photo 1">
+                <img src="https://via.placeholder.com/300" alt="Event Photo 2">
+                <img src="https://via.placeholder.com/300" alt="Marketing Campaign">
+                <img src="https://via.placeholder.com/300" alt="Design Work">
+            </div>
+        </div>
+        
+        <div class="section contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to email me at <a href="mailto:ameeshamichelle.dasnathaniel@kedgebs.com">ameeshamichelle.dasnathaniel@kedgebs.com</a> or connect with me on <a href="https://www.linkedin.com/in/ameeshamichelledasnathaniel">LinkedIn</a>.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Amy Nathaniel</p>
+    </footer>
+</body>
+</html>
